@@ -1,9 +1,21 @@
-<<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html ng-app="myApp">
 <head>
+	<meta name="viewport" content="width=device-width, inital-scale=1">
+	<link rel="stylesheet" type ="text/css" href="style.css">
 	<title></title>
 </head>
-<body>
-	<font color="#F00FFF">Hello, World!</font>
+<body ng-controller="MyController">
+	<font color="#100FCC">Hello, World!</font>
+	<h1>
+		<font size="24" color="#123456">Learn New Words</font>
+	</h1>
+
+	<div>
+		<input ng-model="newWord">
+	</div>
+
+	<script src="node_modules/angular/angular.js"></script>
+	<script src="index.js"></script>
 </body>
-</html>>
+</html>
